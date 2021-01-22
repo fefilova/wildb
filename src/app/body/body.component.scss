@@ -1,0 +1,40 @@
+
+.body{
+    height: 60%;
+    padding: 15px 15px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2% 2% 0 0;
+    margin-top: -20px;
+    z-index: 5;
+    background-color: white;
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        line-height: 2;
+        margin-top: 2%;
+        .thing{
+            font-weight:bold;
+        }
+        .cost{
+            font-weight:bold;
+        }
+        .check{
+            font-weight:normal;
+        }
+        .cost-range{
+            color: #999;
+        }
+        .input-range{
+            height: 23px;
+            width: 60px;
+            opacity: 0.2;
+            border-radius: 30px;
+            outline: none;
+    
+        }
+    }
+}

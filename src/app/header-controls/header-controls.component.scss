@@ -1,0 +1,65 @@
+.header-controls{
+    display: flex;
+    flex-direction: row;
+    .burger{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        width: 60px;
+        height: 50px;
+        background: 0 0;
+        border: 1px solid rgba(255,255,255,.4);
+        border-radius: 8px;
+        margin-right: 20px;
+        outline: none;
+        margin-top: 12px;
+    }
+    .name{
+        color: white;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .user-menu{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        color: white;
+        margin: 10px 40px 0 0;
+        .adress{
+            .icon-adr{
+            background-image: url(/assets/adress.png);
+            width: 24px;
+            height: 24px;
+            background-size: 100%;
+            margin-left: 16px;
+            }
+        }
+        .login{
+            .icon-login{
+            background-image: url(/assets/account.png);
+            width: 24px;
+            height: 24px;
+            background-size: 100%;
+            margin-left: 112px;
+            }
+            .punct-login{
+                margin-left: 100px;
+            }
+        }
+        .basket{
+            .icon-bsk{
+            background-image: url(/assets/basket.png);
+            width: 24px;
+            height: 24px;
+            background-size: 100%;
+            margin-left: 118px;
+            }
+            .punct-bsk{
+                margin-left: 100px;
+            }
+        }
+    }
+}

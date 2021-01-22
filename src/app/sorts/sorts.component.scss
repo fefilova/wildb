@@ -1,0 +1,12 @@
+.sorts{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .border-button{
+        text-decoration: underline;
+        text-decoration-style:dashed;
+        text-decoration-thickness: 1px;
+    }:hover {cursor: pointer;}
+    :active{color:#8c61ff;}
+    }

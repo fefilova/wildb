@@ -1,0 +1,43 @@
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    .button{
+        background-color: rgba(255,255,255,0);
+        color: rgba(255,255,255,.6);
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        margin-right: 20px;
+    }:hover {color: rgba(255,255,255,1);}
+    .rounded-button{
+        background-color: rgba(255,255,255,.3);
+        color: rgba(255,255,255,.6);
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        margin-right: 20px;
+    }:hover {color: rgba(255,255,255,1);
+        cursor: pointer;}
+    .avia-btn{
+        background-color: rgba(255,255,255,.3);
+        color: rgba(255,255,255,.6);
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        .airplan{
+            background-image: url(/assets/airplan.png);
+            width: 24px;
+            height: 24px;
+            background-size: 100%;
+            opacity: .6;
+        }
+        .tickets{
+            margin-top: 5px;
+        }
+    }
+
+}

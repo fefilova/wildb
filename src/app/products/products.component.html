@@ -1,0 +1,8 @@
+<div class="content">
+  <app-sorts></app-sorts>
+  <div class="products">
+    <div *ngFor="let item of products">
+      <app-product [item]="item"></app-product>
+    </div>
+  </div>
+</div>
